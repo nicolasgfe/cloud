@@ -16,8 +16,6 @@ jobs:
         username: ${{ secrets. SSH_USER }}
         port: ${{ secrets. SSH_PORT }}
         key: ${{ secrets. SSH_KEY }}
-        source: "., !node_modules"
-        target: "~/app/integrations"
     
     - name: Update HTML
       uses: appleboy/ssh-action@master
