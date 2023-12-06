@@ -29,4 +29,4 @@ jobs:
         script: |
           cd /
           cat /usr/share/nginx/html
-          # sudo cp /home/app/cloud/index.html /usr/share/nginx/html
+         
